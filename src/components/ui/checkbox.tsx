@@ -6,6 +6,13 @@ import { CheckIcon } from "lucide-react"
 
 import { cn } from "@/lib/utils"
 
+/**
+ * Renders a styled checkbox component using Radix UI primitives.
+ *
+ * Combines custom Tailwind CSS classes with Radix state attributes to provide consistent appearance and accessibility, including support for checked, focus, disabled, and invalid states.
+ *
+ * @param className - Additional CSS classes to apply to the checkbox root element.
+ */
 function Checkbox({
   className,
   ...props
